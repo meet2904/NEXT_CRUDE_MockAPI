@@ -5,6 +5,8 @@ export default async function GetApiById({params}:{params:Promise<{id:number}>})
     let data = await(fetch(`https://683899712c55e01d184dd573.mockapi.io/employee/${id}`));
     let stu =  await data.json();
 
+     
+
   return (
     <>
         <table>
