@@ -2,7 +2,7 @@
 import React from 'react'
 
 
-export default function Deletedata({id,fnToDelete}:{id:any,fnToDelete:any}) {
+export default function CustomButton({id,fnToDelete}:{id:any,fnToDelete:any}) {
     
     
   return (
